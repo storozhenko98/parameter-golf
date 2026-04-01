@@ -1,0 +1,14 @@
+{
+  "author": "mykyta",
+  "github_id": "mykyta",
+  "name": "SLOT + Mixed Int5/6 + MLP3.5x + QKGain4 + SplitLR + Brotli",
+  "blurb": "SLOT eval-time delta optimization + mixed int5 MLP / int6 attention quantization + MLP 3.5x (funded by int5 savings) + QK-Gain 4.0 + split early/late Muon LR + Brotli-11 byte-shuffle compression + soft-round QAT",
+  "date": "2026-03-31",
+  "track": "10min_16mb",
+  "val_loss": null,
+  "val_bpb": null,
+  "seeds": [42, 314, 999],
+  "seed_results": {},
+  "hardware": "8xH100 80GB SXM",
+  "technique_summary": "SLOT eval + int5 MLP + MLP 3.5x + QK-Gain 4.0 + Split LR + Brotli-11 + soft-round QAT"
+}
